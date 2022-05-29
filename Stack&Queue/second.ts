@@ -16,6 +16,7 @@ function solution2(progresses, speeds) {
     let progress = 0;
 
     // 모든 작업이 다 배포될 때까지 반복
+    
     while (progresses[0]) {
         // 첫 번째 기능의 작업 진도
         progress = progresses[0] + (speeds[0] * days);
